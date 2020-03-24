@@ -15,11 +15,9 @@ if (!current_user_can('manage_options')) {
     return;
 }
 if (isset($_GET['settings-updated'])) {
-    add_settings_error('wporg_messages', 'wporg_message', __('Complete example which adds a Top-Level Menu named WPOrg, registers a custom option named wporg_options and performs the CRUD (create, read, update, delete) logic using Settings API and Options API (including showing error/update messages).
-
-    ', 'wporg'), 'updated');
+    add_settings_error('menu_factory_message', 'menu_factory_message', __('Menu created. Check it here', 'menu-factory'), 'updated');
 }
-settings_errors('wporg_messages');
+settings_errors('menu_factory_message');
 ?>
 <div class="wrap">
     <form action="options.php" method="post">

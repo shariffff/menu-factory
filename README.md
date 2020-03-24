@@ -10,3 +10,7 @@ This plugin will generate menu from and categories, product categories and all o
   - :fist:
     - :fist:
       - :fist:
+
+![alt text][logo]
+
+[logo]: ./menu-factory.png "Menu Factory cover"
