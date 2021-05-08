@@ -4,7 +4,7 @@ A tiny Factory for building menus automatically from taxonomy, maintaining the e
 
 This plugin will generate menu from post categories, product categories and all other hierarchical taxonomies by maintaining the exact hierarchy.
 
-##### For now it goes 4 label deep.
+##### For now it goes 4 level deep.
 
 - :point_right:
   - :point_right:
